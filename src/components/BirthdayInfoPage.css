@@ -1,0 +1,41 @@
+/* css/BirthdayInfoPage.css */
+
+form {
+    
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.container{
+                width: 100%;
+                background-image: url("happy.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                min-height: 100vh;
+            }
